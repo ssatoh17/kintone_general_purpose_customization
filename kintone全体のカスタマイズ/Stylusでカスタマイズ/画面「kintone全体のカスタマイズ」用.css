@@ -1,0 +1,28 @@
+/*
+⭐注意点❗⭐「kintone全体のカスタマイズ画面」のデザインを標準機能で変えることはできないため、
+　　　　　　 Stylus等のユーザーCSSツールを使うこと❗
+*/
+
+/* 行間を狭くする */
+.input-file-filelist-cybozu>div {
+    margin: 0;
+    padding: 0;
+}
+
+/* 横幅を広くして、3点リーダーになって読めなくなるのを防ぐ */
+.gaia-customize-file {
+    width: 95%;
+}
+
+/* ヘッダーを削除（非表示） */
+.gaia-header-toolbar {
+    display: none;
+}
+.gaia-header-spacer {
+    height: 57px!important;
+}
+
+/* 無駄なマージンの除去 */
+.admin-app-header {
+    margin-bottom: 0px;
+}
