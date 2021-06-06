@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* 行のマウスホバー（マウスオーバー）時に色をつける */
+tr:hover{
+    background:#dcee93b0!important;
+}
+
+body{
+    line-height: 1.1;
+}
+/* 行の高さ */
+.recordlist-cell-gaia>div,
+.recordlist-show-gaia{
+	height:13px;
+    padding: 3px;
+}
+.listView-control-gaia,
+.recordlist-gaia{
+    font-size:12px;
+}
+.recordlist-detail-gaia{
+    height:9px;
+}
+/* 列ヘッダのラベルを折り返し表示にする */
+.recordlist-header-cell-gaia {
+    white-space: inherit;
+    letter-spacing: 0.01em;
+}
+
+/* 列ヘッダのテキストを中央配置に */
+th.recordlist-header-cell-gaia {
+    text-align: center;
+}
+
+.recordlist-header-cell-gaia>div{
+    padding: 0;
+}
+.recordlist-header-cell-inner-gaia {
+    padding: 2px;
+}
+/* 縦方向の位置を調整 */
+td.recordlist-cell-gaia.recordlist-user_select-gaia.value-5518108>div>a>span{
+	vertical-align: top;  
+}
+.recordlist-entityname-gaia img, .recordlist-username-gaia img {
+    padding: 0;
+    vertical-align: top;
+}
+/* ユーザーアイコン画像（一覧画面の左端のアイコン） */
+.recordlist-entityname-gaia img, .recordlist-username-gaia img {
+    width: 12px;
+    height: 11px;
+}
+/* 左端の詳細閲覧用アイコンの縦方向位置 */
+tr.recordlist-row-gaia a.recordlist-show-gaia {
+    padding-top: 0;
+    margin-top:-10px;
+}
+/* セル */
+.recordlist-cell-gaia,
+.recordlist-editcell-gaia.recordlist-edit-calc-gaia {
+    padding: 0;
+    vertical-align: inherit;
+}
+
+/* 画面上部の行の高さを狭く */
+/*一行目のスペース名の表示行*/
+.gaia-argoui-app-titlebar.gaia-argoui-app-titlebar-has-background {
+    height: 25px;
+}
+/*リンクの履歴行*/
+.gaia-argoui-app-index-breadcrumb {
+    height: 29px;
+}
+/*レコード数表示行*/
+.gaia-argoui-app-index-pager {
+    height: 18px;
+}
+.gaia-argoui-app-toolbar {
+    padding:0px;
+}
+/* 画面上部の行の高さを狭く ここまで*/
+
+/* 編集ボタン、削除ボタン */
+.recordlist-cell-edit-and-remove-action button {
+    padding: 0;
+    padding-right: 15px;
+}
