@@ -13,6 +13,9 @@ body{
 	height:13px;
     padding: 3px;
 }
+td.recordlist-cell-gaia {
+    padding-right: 5px;
+}
 .listView-control-gaia,
 .recordlist-gaia{
     font-size:12px;
@@ -21,11 +24,11 @@ body{
     height:9px;
 }
 /* 列ヘッダのラベルを折り返し表示にする */
-.recordlist-header-cell-gaia {
+th.recordlist-header-cell-gaia {
     white-space: inherit;
     letter-spacing: 0.01em;
+    padding: 3px;
 }
-
 /* 列ヘッダのテキストを中央配置に */
 th.recordlist-header-cell-gaia {
     text-align: center;
